@@ -1,8 +1,7 @@
 import java.util.Arrays;
 
 public class Palindrome {
-
-    boolean isPalindrome = false;
+    //hehe python naming conventions
     char[] str_arr;
     char[] rev_arr;
     int str_len;
@@ -21,10 +20,6 @@ public class Palindrome {
                 a++;
             }
         }
-
-        if(a == str_len){
-            isPalindrome = true;
-        }
-        return isPalindrome;
+        return (a == str_len)
     }
 }
