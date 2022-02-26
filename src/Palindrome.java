@@ -20,6 +20,6 @@ public class Palindrome {
                 a++;
             }
         }
-        return (a == str_len)
+        return (a == str_len);
     }
 }
